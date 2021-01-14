@@ -1,14 +1,19 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, img,  ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, img,  ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {  
     margin: 0;  
     padding: 0;  
     border: 0;  
     font-size: 100%;  
     font: inherit;  
     vertical-align: baseline;  
+} */
+
+* {
+    border: solid 1px black;
 }
 
 p, a {
     font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
 }
 
 h1 {
@@ -40,6 +45,7 @@ footer {
 
 #currentFires, #fee {
     font-weight: 700;
+    display: inline;
 }
 
 a {
@@ -47,6 +53,9 @@ a {
     display: inline-block;
     border-radius: 15px;
     margin: 0 5%;
+    color: white;
+    width: 15vw;
+    vertical-align: middle;
 }
 
 nav {
@@ -61,6 +70,7 @@ nav {
 #seal img {
     object-fit:cover;
     width: 10vw;
+    border-radius: 100%;
 }
 
 #topText {
@@ -71,4 +81,32 @@ nav {
 
 .container {
     margin: 0 5vw;
+}
+
+#banner {
+    height: 15vh;
+    width: 100vw;
+}
+
+#banner img {
+    height: 15vh;
+    width: 100vw;
+    object-fit: cover;
+    background-position: top;
+}
+
+footer a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#warnings img {
+    max-width: 12vw;
+}
+
+#fireWarning, #lodgingWarning {
+    margin: 5vh auto;
+    max-width: 30vw;
+    font-size: 9pt;
+    text-align: center;
 }
