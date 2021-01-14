@@ -13,6 +13,7 @@ p, a {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 32pt;
 }
 
 .plan {
@@ -29,12 +30,45 @@ h1 {
 
 #main {
     background-color: #DDB9A3;
+    padding: 20px;
+    color: white;
 }
 
 footer {
     background-color: #F9E7DC;
-}
+} */
 
 #currentFires, #fee {
     font-weight: 700;
+}
+
+a {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 0 5%;
+}
+
+nav {
+    text-align: center;
+}
+
+#seal {
+    width: 10vw;
+    display: inline-block;
+}
+
+#seal img {
+    object-fit:cover;
+    width: 10vw;
+}
+
+#topText {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 5vw;
 }
